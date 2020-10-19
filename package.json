@@ -1,0 +1,27 @@
+{
+  "name": "kitchen",
+  "version": "1.0.0",
+  "description": "mamaput's kitchen service",
+  "main": "index.js",
+  "repository": "https://github.com/lawalgodwin/mamaput.git",
+  "author": "Godwin Lawal",
+  "license": "MIT",
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "scripts": {
+    "start": "nodemon",
+    "test": "jest"
+  },
+  "dependencies": {
+    "axios": "^0.20.0",
+    "bcrypt": "^5.0.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.9"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.5",
+    "jest": "^26.5.3"
+  }
+}
